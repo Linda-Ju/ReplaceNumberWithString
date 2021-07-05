@@ -165,15 +165,15 @@ public class Main {
 
 
         // 2nd solution:
-        String numberArray = "[";
+        String numbersArray = "[";
         for (int i = 0; i < numbers.length; i++) {
             if (i != numbers.length - 1) {
-                numberArray += numbers[1] + ", ";
+                numbersArray += numbers[i] + ", ";
             } else {
-                numberArray += numbers[i] + "]";
+                numbersArray += numbers[i] + "]";
             }
-            System.out.println("numbers = " + numbers);
         }
+        System.out.println("numbers = " + numbersArray);
     }
 }
 
